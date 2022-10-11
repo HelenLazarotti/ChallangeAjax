@@ -1,0 +1,149 @@
+/*importei uma fonte do Google Fonts que melhor se adatou a minha interface:*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+    background-color: #695a73;
+
+}
+
+#header,
+#footer {
+    background-color: #1d1026;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+
+#header {
+    top: 0;
+}
+
+#footer {
+    bottom: 0;
+    position: fixed;
+}
+
+.container {
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.form {
+    text-align: center;
+    background-color: #c6a2e0;
+    max-width: 500px;
+    margin: auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.hide {
+    display: none !important;
+}
+
+.divOffers {
+    text-align: center;
+
+}
+
+.txtCep {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+#texto {
+    font-size: 18px;
+    margin: 30px;
+}
+
+.internetOffers {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.plans>h3 {
+    margin: 0;
+    background-color: #1d1026;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.plans>ul {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.planPrice {
+    font-size: 50px;
+}
+
+.plans>button,
+#procurar {
+    background-color: #342140;
+    color: #ffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.plans>button:hover {
+    background-color: #684d7a;
+}
+
+.btnBackPage {
+    margin-bottom: 50px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#btnBack {
+    background-color: #ffff;
+    color: #1d1026;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#btnBack:hover {
+    background-color: #1d1026;
+    color: #ffff;
+}
+
