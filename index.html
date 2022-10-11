@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Internet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header"></header>
+    <div id="container">
+        <div class="form" id="form">
+            <h2>Olá! Seja bem-vindo(a).</h2>
+            <input type="text" placeholder="Digite seu CEP" id="cep">
+            <button id="procurar" onclick="procurar()">Procurar</button>
+        </div>
+        <div class="divOffers hide">
+            <div class="txtCep">
+                <h2 id="texto"></h2>
+            </div>
+            <div class="internetOffers">
+                <div class="plans">
+                    <h3>680 Mega</h3>
+                    <ul>
+                        <li>Internet ilimitada</li>
+                        <li>Com Wi-fi</li>
+                        <li>Modem grátis</li>
+                    </ul>
+                    <p class="planPrice">R$200</p>
+                    <button>VER PLANO</button>
+                </div>
+            </div>
+            <div class="internetOffers">
+                <div class="plans">
+                    <h3>300 Mega</h3>
+                    <ul>
+                        <li>Conteúdo digital</li>
+                        <li>Com Wi-fi</li>
+                        <li>Modem grátis</li>
+                    </ul>
+                    <p class="planPrice">R$118</p>
+                    <button>VER PLANO</button>
+                </div>
+            </div>
+            <div class="internetOffers">
+                <div class="plans">
+                    <h3>100 Mega</h3>
+                    <ul>
+                        <li>Internet ilimitada</li>
+                        <li>Não possui modem</li>
+                        <li>Rede simples</li>
+                    </ul>
+                    <p class="planPrice">R$95</p>
+                    <button>VER PLANO</button>
+                </div>
+            </div>
+            <div class="btnBackPage">
+                <button id="btnBack" onclick="backpage()">Ops, errei meu cep!</button>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
